@@ -8,7 +8,7 @@ const App = () => {
     [
     {
         id: 1,
-        text: 'Doctors Appointment',
+        text: 'Tech Appointment',
         day: 'Feb 5th at 2:30pm',
         reminder: true,
     },
