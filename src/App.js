@@ -1,8 +1,11 @@
 
 import Header from './components/header'
 import Tasks from './components/Tasks'
+import Footer from './components/Footer'
 import {useState} from 'react'
 import AddTask from './components/AddTask'
+import Section from './components/Section'
+
 
 const App = () => {
   const [tasks, setTasks] = useState(
@@ -52,6 +55,8 @@ const App = () => {
       <Tasks  tasks={tasks} 
       onDelete= {deleteTask} 
       onToggle={toggleReminder}/> : ('Oga No Task To Show, OTTN')}
+      <Footer />
+      <Section />
     </div>
   )
   
