@@ -4,14 +4,14 @@ const Section = () => {
     }
 
     const handleClickAgain = (name) => {
-        console.log(name);
+        console.log('Hello ' + name);
     }
 
   return (
     <div className="section">
     
         <button onClick={handleClick}>Click Me</button>   
-        <button onClick={() =>{handleClickAgain, 'morayo'}}>Click Me Again</button>
+        <button onClick={() =>handleClickAgain('Morayo')}>Click Me Again</button>
 
     </div>
   )
